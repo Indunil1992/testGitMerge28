@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7a82c743-49c1-470d-b909-c8ba2a4d3608": {
+        "id": "7a82c743-49c1-470d-b909-c8ba2a4d3608",
+        "parent": null,
+        "name": "testGitMerge28",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4c266d33-e1d5-491f-8f50-2272e556777d"
+        ],
+        "isRemovable": false,
+        "filePath": "testGitMerge28"
+      },
+      "4c266d33-e1d5-491f-8f50-2272e556777d": {
+        "id": "4c266d33-e1d5-491f-8f50-2272e556777d",
+        "parent": "7a82c743-49c1-470d-b909-c8ba2a4d3608",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testGitMerge28/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "7a82c743-49c1-470d-b909-c8ba2a4d3608",
+    "openFiles": [
+      "4c266d33-e1d5-491f-8f50-2272e556777d"
+    ],
+    "currentFileId": "4c266d33-e1d5-491f-8f50-2272e556777d",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testGitMerge28",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572251592340
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testGitMerge28",
+      "url": "https://github.com/Indunil1992/testGitMerge28"
+    }
+  }
+}
