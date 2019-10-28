@@ -1,4 +1,4 @@
-exports.handler = function(event, context, callback) {
-    //cmnt indu
-    callback(null, {"message": "Successfully executed"});
+exports.handler = function (event, context, callback) {
+    //cmnt indu hirudinee edit
+    callback(null, { "message": "Successfully executed" });
 }

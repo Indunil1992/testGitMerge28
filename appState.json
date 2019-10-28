@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testGitMerge28/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    //cmnt indu\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    //cmnt indu hirudinee edit\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -64,7 +64,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572251776878
+    "lastSave": 1572251844374
   },
   "VCS_STATE": {
     "provider": "GitHub",
