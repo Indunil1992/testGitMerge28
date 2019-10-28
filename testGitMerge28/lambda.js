@@ -4,14 +4,14 @@ const s3 = new AWS.S3();
 exports.handler = function (event, context, callback) {
     s3.listObjects({
         'Bucket': 'indunil.trigger',
-        'MaxKeys': 10,
-        'Prefix': ''
+        'MaxKeys': 100,
+        'Prefix': '66'
     }).promise()
         .then(data => {
             console.log(data);           // successful response
             /*
             data = {
-                Contents: [
+                Contents: [  
                     {
                        ETag: "\"70ee1738b6b21e2c8a43f3a5ab0eee71\"",
                        Key: "example1.jpg",
