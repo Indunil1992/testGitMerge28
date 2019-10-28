@@ -38,43 +38,7 @@
       "4c266d33-e1d5-491f-8f50-2272e556777d"
     ],
     "currentFileId": "4c266d33-e1d5-491f-8f50-2272e556777d",
-    "resources": {
-      "apigusEast1sachithraAPInameqainduany": {
-        "name": "apigusEast1sachithraAPInameqainduany",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiMode": 1,
-          "apiName": "sachithraAPIname",
-          "apiId": "052p9kjn18",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "zrjp6rdv3b",
-          "existingResources": {
-            "/hiruidnee": "mdiuqa",
-            "/": "zrjp6rdv3b"
-          },
-          "resourceMode": 0,
-          "resourceName": "qa/indu",
-          "resourcePath": "/qa/indu",
-          "restMethod": "ANY",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "Test808",
-          "stageDeploymentId": "qhoiun",
-          "mode": 1
-        }
-      },
-      "cweKTestSQSRule1": {
-        "name": "cweKTestSQSRule1",
-        "type": "CLOUD_WATCH",
-        "config": {
-          "mode": 1,
-          "arn": "arn:aws:events:us-east-1:318300609668:rule/KTestSQSRule1",
-          "name": "KTestSQSRule1"
-        }
-      }
-    },
+    "resources": {},
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -100,7 +64,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572253714715
+    "lastSave": 1572253757711
   },
   "VCS_STATE": {
     "provider": "GitHub",
