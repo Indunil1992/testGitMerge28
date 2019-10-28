@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "cweKTestSQSRule1",
+            "config": {}
+          }
+        ]
       }
     },
     "rootNode": "7a82c743-49c1-470d-b909-c8ba2a4d3608",
@@ -64,6 +69,15 @@
           "stageDeploymentId": "qhoiun",
           "mode": 1
         }
+      },
+      "cweKTestSQSRule1": {
+        "name": "cweKTestSQSRule1",
+        "type": "CLOUD_WATCH",
+        "config": {
+          "mode": 1,
+          "arn": "arn:aws:events:us-east-1:318300609668:rule/KTestSQSRule1",
+          "name": "KTestSQSRule1"
+        }
       }
     },
     "customTemplate": {
@@ -91,7 +105,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572253266432
+    "lastSave": 1572253543896
   },
   "VCS_STATE": {
     "provider": "GitHub",
